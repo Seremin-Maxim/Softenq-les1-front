@@ -1,36 +1,8 @@
 #root {
-  max-width: 1280px;
+  max-width: 12800px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -39,4 +11,29 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Стиль для подписи поля ввода */
+.form-group label {
+  display: block; /* Поместить каждую подпись на новую строку */
+  margin-bottom: 5px; /* Добавить отступ снизу между подписью и полем ввода */
+}
+
+.button-reg{
+  margin-left: 5px;
+  background-color: #73e165;
+}
+
+.custom-width{
+  max-width: 300px !important;
+  display: block;
+  margin: 0 auto;
+}
+.button-m{
+  margin-bottom: 5px;
 }
